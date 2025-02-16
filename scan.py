@@ -86,4 +86,4 @@ if __name__ == "__main__":
     scanner.start_scan()
     scanner.generate_report()
 
-    print("\nScan completed!")
+    print("\nOK---")
