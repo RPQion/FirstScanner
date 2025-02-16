@@ -76,8 +76,8 @@ class Scann:
 if __name__ == "__main__":
     # 参数解析
     parser = argparse.ArgumentParser(description="The First D Scanner")
-    parser.add_argument("target", help="Target IP or URL")
-    parser.add_argument("-p", "--ports", nargs="+", type=int, help="Custom ports to scan")
+    parser.add_argument("target", help="IP or URL")
+    parser.add_argument("-p", "--ports", nargs="+", type=int, help="目标ip端口")
     args = parser.parse_args()
 
     # 启动扫描
