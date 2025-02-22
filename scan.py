@@ -10,7 +10,6 @@ def logo() :
                     by xiaocaibi
     """)
 
-# 基础配置
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 COMMON_PORTS = [80, 443, 8080, 8000, 22, 21, 3306]
 COMMON_DIRS = [
